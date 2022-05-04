@@ -10,9 +10,9 @@
 - CSS
 - Bootstrap
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://learnwithalfred.github.io/portfolio-bootstrap/)
 
 
 ## Getting Started
@@ -29,14 +29,6 @@ To get a local copy up and running follow these simple steps.
 
 - Create a folder in your local machine
 - Open your console in your folder and run this command: `git clone https://github.com/learnwithalfred/portfolio-bootstrap.git`
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
