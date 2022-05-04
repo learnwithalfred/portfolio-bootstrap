@@ -1,5 +1,5 @@
-
 # Portfolio Bootstrap
+![Project ](img/project.png)
 
 > In this project we build a portfolio website with bootstrap
 
