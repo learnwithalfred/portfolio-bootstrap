@@ -20,13 +20,13 @@
       <nav>
         <ul class="nav justify-content-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Potfolio</a>
+            <a class="nav-link text-dark active" aria-current="page" href="#">Potfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link text-dark" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link text-dark" href="#">Contact</a>
           </li>
         </ul>
       </nav>
@@ -48,29 +48,29 @@
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
               <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link text-dark active" aria-current="page" href="#"
                     ><i class="fa-brands fa-github"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"
+                  <a class="nav-link text-dark" href="#"
                     ><i class="fa-brands fa-linkedin-in"></i
                   ></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"
+                  <a class="nav-link text-dark" href="#"
                     ><i class="fa-brands fa-angellist"></i
                   ></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"
+                  <a class="nav-link text-dark" href="#"
                     ><i class="fa-brands fa-twitter"></i
                   ></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"
+                  <a class="nav-link text-dark" href="#"
                     ><i class="fa-brands fa-medium"></i
                   ></a>
                 </li>
@@ -484,8 +484,8 @@
         </div>
       </section>
 
-      <section class="about-me">
-        <div class="px-4 pt-5 my-5 text-center">
+      <section class="about-me ">
+        <div class="px-4 pt-5 my-5 text-center container mb-4">
           <h2 class="display-5 fw-bold">About me</h2>
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">
@@ -493,7 +493,7 @@
               some of my work and experience! If you like what you see and have
               a project you need coded, don’t hestiate to contact me.
             </p>
-            <button type="button" class="btn btn-success btn-lg m-2">
+            <button type="button" class="btn btn-success btn-lg mb-4">
               See Projects
             </button>
           </div>
@@ -717,62 +717,95 @@
         </div>
       </section>
 
-      <section class="container contact-me">
+      <section class="container contact-me mt-4">
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2">
-          <div class="col">
-            <h3 class="fw-bold">
+          <div class="col d-flex align-items-center">
+            <h3 class="fw-bold text-center">
               I'm always interested in hearing about new projects, so if you'd
               like to chat please get in touch.
             </h3>
           </div>
           <div class="col">
-            <div class="row g-3 mb-3">
-              <div class="col-sm-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="firstName"
-                  placeholder="First Name"
-                  value=""
-                  required
-                />
-                <div class="invalid-feedback">
-                  Valid first name is required.
+            <form>
+              <div class="row g-3 mb-3">
+                <div class="col-sm-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="First Name"
+                    value=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="Last Name"
+                    value=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
                 </div>
               </div>
-              <div class="col-sm-6">
+              <div class="mb-3">
                 <input
-                  type="text"
+                  type="email"
                   class="form-control"
-                  id="lastName"
-                  placeholder="Last Name"
-                  value=""
-                  required
+                  id="exampleFormControlInput1"
+                  placeholder="E-mail address"
                 />
-                <div class="invalid-feedback">Valid last name is required.</div>
               </div>
-            </div>
-            <div class="mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="E-mail address"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                placeholder="Typing something"
-              ></textarea>
-            </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Typing something"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-success btn-lg">
+                Get In Touch
+              </button>
+            </form>
           </div>
         </div>
       </section>
     </main>
+    <footer class="border-top mt-4">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link text-dark active text-dark" aria-current="page" href="#"
+            ><i class="fa-brands fa-github text-dark"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#"
+            ><i class="fa-brands fa-linkedin-in text-dark"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#"
+            ><i class="fa-brands fa-angellist text-dark"></i
+          ></a>
+        </li>
 
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#"><i class="fa-brands fa-twitter text-dark"></i></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#"><i class="fa-brands fa-medium text-dark"></i></a>
+        </li>
+      </ul>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
