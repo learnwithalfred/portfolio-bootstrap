@@ -29,9 +29,7 @@
 }
 
 .contact-me {
-  background-image:
-    url(img/footer-left.png),
-    url(img/footer-center.png),
+  background-image: url(img/footer-left.png), url(img/footer-center.png),
     url(img/footer-right.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left bottom, 25% 85%, right bottom;
@@ -67,4 +65,11 @@ button:hover {
 
 .fa-brands:hover {
   font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    background-size: 25%;
+    background-position: 100% top, 0% 18%;
+  }
 }
