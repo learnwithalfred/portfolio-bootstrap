@@ -8,16 +8,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  position: relative;
 }
 
 .about-me {
-  background-image: url(img/Frame-left.png);
-  background-repeat: no-repeat;
-  background-position: right top;
+  background-image: url(img/Frame-left.png), url(img/frame-right.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, 0% 15%;
 }
 
-.about-me-secondary {
-  background-image: url(img/frame-right.png);
-  background-repeat: no-repeat;
-  background-position: 0% 15%;
+.contact-me {
+  background-image: url(img/footer-left.png), url(img/footer-center.png), url(img/footer-right.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left bottom, 10% bottom, right bottom;
 }
