@@ -9,3 +9,15 @@
   background-size: cover;
   background-position: center top;
 }
+
+.about-me {
+  background-image: url(img/Frame-left.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.about-me-secondary {
+  background-image: url(img/frame-right.png);
+  background-repeat: no-repeat;
+  background-position: 0% 15%;
+}
