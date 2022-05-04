@@ -42,3 +42,27 @@ button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
+
+.nav-item {
+  font-weight: 500;
+}
+
+.nav-item > a {
+  transition: all 500ms ease-out;
+  transition-delay: 50ms;
+}
+
+.nav-item > a:hover {
+  border: 2px solid black;
+  font-size: 1.2rem;
+  padding: 0 0.7rem;
+}
+
+.fa-brands {
+  transition: all 500ms ease-out;
+  transition-delay: 50ms;
+}
+
+.fa-brands:hover {
+  font-size: 1.5rem;
+}
