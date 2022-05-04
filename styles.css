@@ -1,0 +1,77 @@
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(img/Header-llustration-desktop@2x.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  position: relative;
+}
+
+.arrow-down > i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #acb7c3;
+  border-radius: 50%;
+}
+
+.about-me {
+  background-image: url(img/Frame-left.png), url(img/frame-right.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, 0% 15%;
+}
+
+.contact-me {
+  background-image:
+    url(img/footer-left.png),
+    url(img/footer-center.png),
+    url(img/footer-right.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left bottom, 25% 85%, right bottom;
+  background-size: 10%;
+  padding-bottom: 8rem;
+}
+
+button:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+.nav-item {
+  font-weight: 500;
+}
+
+.nav-item > a {
+  transition: all 500ms ease-out;
+  transition-delay: 50ms;
+}
+
+.nav-item > a:hover {
+  border: 2px solid black;
+  font-size: 1.2rem;
+  padding: 0 0.7rem;
+}
+
+.fa-brands {
+  transition: all 500ms ease-out;
+  transition-delay: 50ms;
+}
+
+.fa-brands:hover {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .about-me {
+    background-size: 25%;
+    background-position: 100% top, 0% 18%;
+  }
+}
