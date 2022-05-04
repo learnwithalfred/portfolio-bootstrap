@@ -11,6 +11,13 @@
   position: relative;
 }
 
+.arrow-down {
+  margin: 0 auto;
+  width: 2rem;
+  border: 2px solid #acb7c3;
+  border-radius: 50%;
+}
+
 .about-me {
   background-image: url(img/Frame-left.png), url(img/frame-right.png);
   background-repeat: no-repeat, no-repeat;
@@ -18,7 +25,10 @@
 }
 
 .contact-me {
-  background-image: url(img/footer-left.png), url(img/footer-center.png), url(img/footer-right.png);
+  background-image: url(img/footer-left.png), url(img/footer-center.png),
+    url(img/footer-right.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: left bottom, 10% bottom, right bottom;
+  background-position: left bottom, 25% 85%, right bottom;
+  background-size: 10%;
+  padding-bottom: 8rem;
 }
